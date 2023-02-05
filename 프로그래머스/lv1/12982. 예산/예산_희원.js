@@ -49,6 +49,7 @@
 // }
 
 function solution(d, budget) {
+    // 순서대로 정렬한 후, 예산이 넘지 않을 때까지만 담는다.
     d.sort((a, b) => {
         return parseInt(a) - parseInt(b);
     })
