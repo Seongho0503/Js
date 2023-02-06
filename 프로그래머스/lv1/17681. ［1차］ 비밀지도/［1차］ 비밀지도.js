@@ -1,3 +1,4 @@
+
 function getBinaryNum(n, k) {
     const num = n.toString(2);
     return "0".repeat(k-num.length) + num;
@@ -18,3 +19,4 @@ function solution(n, arr1, arr2) {
 
     return answer;
 }
+

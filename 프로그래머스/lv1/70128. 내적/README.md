@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70128) 
 
+
+### 성능 요약
+
+메모리: 33.4 MB, 시간: 0.09 ms
+
+
 ### 구분
 
 코딩테스트 연습 > 월간 코드 챌린지 시즌1
@@ -64,4 +70,6 @@
 </ul>
 
 
+
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
