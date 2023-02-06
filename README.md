@@ -1,4 +1,24 @@
-# Js
+
+# 💯 [자바스크립트] 알고리즘 및 코딩 테스트 문제 풀이
+
+### ✍ 12 Problems Solved
+
+
+## 👩‍👦‍👦 **스터디 멤버**
+<table>
+ <tr>
+    <td align="center"><a href="https://github.com/Seongho0503"><img src="https://avatars.githubusercontent.com/Seongho0503" width="150px;" alt=""></td>
+    <td align="center"><a href="https://github.com/lea-hwang"><img src="https://avatars.githubusercontent.com/lea-hwang" width="150px;" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Seongho0503"><b>권성호</b></td>
+    <td align="center"><a href="https://github.com/lea-hwang"><b>황희원</b></td>
+  </tr>
+  <tr> 
+    <td align="center">JavaScript</td>
+    <td align="center">JavaScript</td>
+  </tr> 
+</table>
 
 ## 📍 Progress Record
 |  | 월 | 화 | 수 | 목 | 금 | 
