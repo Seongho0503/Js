@@ -1,6 +1,9 @@
 function solution(s) {
-  let answer = 1;
-  let str = [];
+
+  var answer = 1;
+  var str = []
+
+
   for (let i = 0; i < s.length; i++) {
     // 지금 인덱스의 문자열 값과 배열에 넣은 인덱스-1(이전 값)과 비교한다
     if (str[str.length - 1] === s[i]) str.pop();
