@@ -1,4 +1,3 @@
-// 아직 100점 못받았습니다....
 function solution(n, info) {
     // 어피치가 얻은 점수라면 해당 점수를 얻었을 때 *2
     // 어피치가 얻지 못한 점수라면 그 점수 그대로
@@ -12,6 +11,7 @@ function solution(n, info) {
     for (let i = 0; i < 11; i++) {
         const [arrow, score] = scores[i]; // 필요한 화살의 수와 그 과녁을 맞췄을 때 얻을 수 있는 점수
         const prescoreMat = [...scoreMat];
+        const preDpMat = JSON.parse(JSON.stringify(dpMat));
         for (let maxArrow = 0; maxArrow < n+1; maxArrow++) {
             // 가지고 있는 화살로는 해당 점수를 얻을 수 없을 경우, continue
             if (arrow > maxArrow) continue
@@ -25,14 +25,12 @@ function solution(n, info) {
                 scoreMat[maxArrow] = curScore;
                 
                 // 2. 쏜 과녁 교체
-                const newDp = [...dpMat[maxArrow - arrow]];
+                const newDp = [...preDpMat[maxArrow - arrow]];
                 newDp[i] = 1; // 현재 과녁에 쏜다
                 dpMat[maxArrow] = newDp;
             }
         }
-        
     }
-    console.log(scoreMat)
     
     // lion의 점수판 갱신
     let apeachScore = info.reduce((acc, shot, idx) => acc +  (shot > 0 ? (10-idx) : 0), 0);
